@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (optional, keep if you want to version them)
+# */migrations/*.pyc
+# */migrations/*.pyo
+# */migrations/*.py
+!*/migrations/__init__.py
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+
+# Others
+*.swp
+*.swo
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test
+.coverage
+.cache
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
